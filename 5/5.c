@@ -3,7 +3,7 @@
 #include <time.h>
 
 int main(void) {
-
+  printf("the dokey file is working");
   char count = 'A';
 
   while (count <= 'Z') {
@@ -53,13 +53,13 @@ int main(void) {
     }
     icount++;
   }
-
+  //test
   i = 0; 
   while(++i) { 
-    if (i%5==0) {
+    if (i%3==0) {
       continue;
     }
-    if (i > 200) {
+    if (i > 100) {
       break;
     }
     printf("%d loop\n",i);
